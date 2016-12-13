@@ -1,0 +1,22 @@
+<div ng-controller="ErrorDirectiveCtrl as errCtrl">
+
+	<!-- <div ng-show="errCtrl.errorMsg" class="alert alert-danger" role="alert"> -->
+	<div class="alert alert-danger" role="alert">
+	
+		<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+		
+		<span class="sr-only">Error:</span>
+		
+		{{ errCtrl.errorMsg }}
+		
+		<button type="button" class="btn btn-default pull-right" ng-click="errCtrl.testFunc()">Test Func()</button>
+		
+	</div>
+	
+	<div ng-show="errCtrl.test" class="alert alert-success" role="alert">
+	
+		<p>{{ errCtrl.test }}</p>
+		
+	</div>
+	
+</div>

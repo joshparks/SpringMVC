@@ -1,0 +1,9 @@
+.city-label {
+	width: 50%;
+	display: inline-block;	
+}
+
+.row > div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
